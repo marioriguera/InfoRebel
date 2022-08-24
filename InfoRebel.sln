@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoRebel", "InfoRebel\InfoRebel.csproj", "{29704C60-126A-4ADC-B04C-0E38543EABBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoRebel", "InfoRebel\InfoRebel.csproj", "{29704C60-126A-4ADC-B04C-0E38543EABBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.AccesoDatos", "InfoRebel.AccesoDatos", "{B4F9D674-AE39-4EE9-9906-74BF20B8EDA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.AccesoDatos.Test", "InfoRebel.AccesoDatos.Test", "{0AECA572-704B-43AD-B2CE-D591C93FC809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Principal", "InfoRebel.Principal", "{3FC82FD9-C106-4852-90EB-306F6D804D91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Principal.Test", "InfoRebel.Principal.Test", "{5C3371D1-C126-4A45-A2DA-64BAC21CAEC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29704C60-126A-4ADC-B04C-0E38543EABBB} = {3FC82FD9-C106-4852-90EB-306F6D804D91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {191F4621-D92F-4DC3-9FAD-D5A4449D9EA8}

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace InfoRebel.Controllers
+namespace InfoRebel.Principal.InfoRebel.Controllers
 {
     [ApiController]
     [Route("[controller]")]
