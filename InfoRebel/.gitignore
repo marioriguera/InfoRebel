@@ -229,3 +229,7 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+# Visual Studio
+*.vs/
+*InfoRebel/ClientApp/.angular/cache
