@@ -5,13 +5,27 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoRebel", "InfoRebel\InfoRebel.csproj", "{29704C60-126A-4ADC-B04C-0E38543EABBB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Principal", "InfoRebel.Principal", "{3FC82FD9-C106-4852-90EB-306F6D804D91}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.UI", "InfoRebel.UI", "{3FC82FD9-C106-4852-90EB-306F6D804D91}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Principal.Test", "InfoRebel.Principal.Test", "{5C3371D1-C126-4A45-A2DA-64BAC21CAEC2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.UI.Test", "InfoRebel.UI.Test", "{5C3371D1-C126-4A45-A2DA-64BAC21CAEC2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Infraestructure", "InfoRebel.Infraestructure", "{660FD9DC-8044-4820-B741-4C492183F07A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Domain", "InfoRebel.Domain", "{AAAD1A99-3640-452D-8E5E-A2EE120CF160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoRebel.Infraestructure", "InfoRebel.Infraestructure\InfoRebel.Infraestructure.csproj", "{F62E6A8B-0E23-4D14-BECE-7BFFD176E914}"
+	ProjectSection(ProjectDependencies) = postProject
+		{618D82F2-CD3A-4F57-A568-CAE5547EE976} = {618D82F2-CD3A-4F57-A568-CAE5547EE976}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.BL", "InfoRebel.BL", "{967D8B50-D4C4-4C25-9771-C6CBEF9EE5DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.BL.Test", "InfoRebel.BL.Test", "{523887A3-FD13-4A39-87F0-4437CFDC0E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoRebel.Domain", "InfoRebel.Domain\InfoRebel.Domain.csproj", "{618D82F2-CD3A-4F57-A568-CAE5547EE976}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29704C60-126A-4ADC-B04C-0E38543EABBB} = {29704C60-126A-4ADC-B04C-0E38543EABBB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +37,22 @@ Global
 		{29704C60-126A-4ADC-B04C-0E38543EABBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29704C60-126A-4ADC-B04C-0E38543EABBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29704C60-126A-4ADC-B04C-0E38543EABBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62E6A8B-0E23-4D14-BECE-7BFFD176E914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62E6A8B-0E23-4D14-BECE-7BFFD176E914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62E6A8B-0E23-4D14-BECE-7BFFD176E914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62E6A8B-0E23-4D14-BECE-7BFFD176E914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618D82F2-CD3A-4F57-A568-CAE5547EE976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618D82F2-CD3A-4F57-A568-CAE5547EE976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618D82F2-CD3A-4F57-A568-CAE5547EE976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618D82F2-CD3A-4F57-A568-CAE5547EE976}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{29704C60-126A-4ADC-B04C-0E38543EABBB} = {3FC82FD9-C106-4852-90EB-306F6D804D91}
+		{F62E6A8B-0E23-4D14-BECE-7BFFD176E914} = {660FD9DC-8044-4820-B741-4C492183F07A}
+		{618D82F2-CD3A-4F57-A568-CAE5547EE976} = {AAAD1A99-3640-452D-8E5E-A2EE120CF160}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {191F4621-D92F-4DC3-9FAD-D5A4449D9EA8}

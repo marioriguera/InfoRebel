@@ -1,4 +1,4 @@
-namespace InfoRebel.Principal.InfoRebel
+namespace InfoRebel.UI.InfoRebel
 {
     public class WeatherForecast
     {
