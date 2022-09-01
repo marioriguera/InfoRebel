@@ -5,13 +5,13 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoRebel", "InfoRebel\InfoRebel.csproj", "{29704C60-126A-4ADC-B04C-0E38543EABBB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.AccesoDatos", "InfoRebel.AccesoDatos", "{B4F9D674-AE39-4EE9-9906-74BF20B8EDA4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.AccesoDatos.Test", "InfoRebel.AccesoDatos.Test", "{0AECA572-704B-43AD-B2CE-D591C93FC809}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Principal", "InfoRebel.Principal", "{3FC82FD9-C106-4852-90EB-306F6D804D91}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Principal.Test", "InfoRebel.Principal.Test", "{5C3371D1-C126-4A45-A2DA-64BAC21CAEC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Infraestructure", "InfoRebel.Infraestructure", "{660FD9DC-8044-4820-B741-4C492183F07A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfoRebel.Domain", "InfoRebel.Domain", "{AAAD1A99-3640-452D-8E5E-A2EE120CF160}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
